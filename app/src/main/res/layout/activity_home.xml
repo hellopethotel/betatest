@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Main Menu"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="30dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageButton
+            android:src="@drawable/daycarebook"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:scaleType="fitCenter"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Book Pet\nDay Care"
+            android:backgroundTint="@color/colorAccent"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/petCare" />
+
+        <ImageButton
+            android:src="@drawable/trainingbook"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:scaleType="fitCenter"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Book Pet\nTraining"
+            android:backgroundTint="@color/colorAccent"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/petTraining" />
+
+        <ImageButton
+            android:src="@drawable/aboutus"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:scaleType="fitCenter"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="About Us"
+            android:backgroundTint="@color/colorAccent"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/about" />
+
+        <ImageButton
+            android:src="@drawable/ourpromotion"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:scaleType="fitCenter"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="Our\nPromotion"
+            android:backgroundTint="@color/colorAccent"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="sans-serif-smallcaps"
+            android:id="@+id/history" />
+
+    </GridLayout>
+
+</RelativeLayout>
